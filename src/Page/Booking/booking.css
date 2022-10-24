@@ -1,0 +1,43 @@
+.cardDiv{
+    width: 440px;
+    margin: 10px auto;
+    background: #ffff;
+    padding: 10px;
+    background: #FFFFFF;
+border-radius: 5px;
+}
+
+.cardDiv>input{
+    width: 417px;
+height: 60px;
+
+background: #F2F2F2;
+border: none;
+border-radius: 5px;
+padding-left: 10px;
+}
+.bookbtn{
+   display: flex;
+align-items: center;
+padding: 20px 152px;
+gap: 10px;
+
+width: 417px;
+height: 60px;
+
+
+background: #F9A51A;
+border-radius: 5px;
+text-decoration:dotted;
+}
+.cardDiv>a{
+    text-decoration: none;
+}
+@media screen and (max-width:668px) {
+    .cardDiv{
+        width: 100%;
+      
+    }
+
+    
+}

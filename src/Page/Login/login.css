@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainLoginDiv{
+    width:30%;
+    /* height: 300px; */
+    margin: 0px auto;
+    border: 1px solid rgb(30, 30, 30);
+    margin-top: 100px;
+    border-radius: 5px;
+
+}
+.loginDiv{
+    width: 80%;
+    margin: 0px auto;
+    
+    font-family: 'Lato';
+}
+.loginDiv>.okks>a{
+    color:  rgba(239, 152, 39, 0.849);
+}
+.loginDiv>.rhds>a{
+    color:  rgba(239, 152, 39, 0.849);
+}
+
+.loginDiv>form>input{
+    border: none;
+    margin-top: 10px;
+    border-bottom: 2px solid grey;
+    width: 100%;
+    padding: 5px;
+}
+.loginButton{
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(239, 152, 39, 0.849);
+    border: none;
+    border-radius: 5px;
+}
+.logoImges{
+height: 20px;
+}
+.sclButton{
+    width: 100%;
+    border: none;
+    background-color: #fff0;
+    /* padding: 15px; */
+    border: 1px solid black;
+    margin: 10px 0px;
+    border-radius: 4px;
+    background:none;
+}
+@media screen and (max-width:668px) {
+    .mainLoginDiv{
+        width:100%;
+        border: none;
+    }
+
+    
+}

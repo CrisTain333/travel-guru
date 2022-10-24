@@ -1,0 +1,20 @@
+.hotelIamge{
+    height: 200px;
+}
+.hotelsDiv{
+    width: 100%;
+}
+
+@media screen and (max-width:668px) {
+    .hotelsDiv{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 80%;
+        margin: 0px auto;
+        align-items: center;
+    }
+.hed{
+    /* text-align: center; */
+    margin-bottom: 20px;
+}
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+.page-holder {
+    min-height: 110vh;
+  }
+  
+  .bg-cover {
+    background-size: cover !important;
+  }
+  h1{
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-weight: 800; */
+  }
+  .okkks{
+    margin: 0px auto;
+  }
